@@ -26,10 +26,18 @@ a {
 
 .menu {
   font-size: 22px;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* border: 2px solid #ee4c0b; */
 }
 
 .menu > li {
   color: #334;
+  /* border: 1px solid #334; */
 }
 
 .menu > li:hover {
