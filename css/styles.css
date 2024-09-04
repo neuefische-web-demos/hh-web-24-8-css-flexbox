@@ -28,16 +28,17 @@ a {
   font-size: 22px;
   display: flex;
   height: 150px;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row; /* default */
+  justify-content: flex-start; /* default */
+  align-items: stretch; /* default */
   flex-wrap: wrap;
   gap: 1rem;
-  /* border: 2px solid #ee4c0b; */
+  /* border: 2px solid hotpink; */
 }
 
 .menu > li {
   color: #334;
-  /* border: 1px solid #334; */
+  /* border: 1px solid purple; */
 }
 
 .menu > li:hover {
